@@ -1,0 +1,27 @@
+* {
+    background: rgba(67, 162, 210, 0.598);
+    box-sizing: border-box;
+}
+
+/* Element Selectors */
+header {
+    padding: 30px;
+    text-align: center;
+    background-color: aqua;
+}
+
+h1 {
+padding: 10px;
+border: 1px blue;
+}
+
+nav {
+    display: flex;
+
+}
+
+a {
+    font-size: larger;
+    padding: 12px;
+    text-align: center;
+}
