@@ -38,7 +38,6 @@ a {
     color: blue;
 }
 
-/*  Class selectors   */
 .section {
     margin-bottom: 20px;
     padding: 19px;
@@ -54,20 +53,20 @@ a {
     float: right;
 }
 
-/* .block  {
-    display: block;
+/* .pic {
+    display: flex;
+    max-height: max-content;
 } */
+
+.block  {
+    display: block;
+}
 
 .backgroundIMG {
     background: url(../chal2-Dustin-s-Portfolio/images/background.JPG) no-repeat fixed 50%;
     background-size: cover;
     height: 100vh;
 }
-
-/* .pic {
-    display: flex;
-    max-height: max-content;
-} */
 
 /*  <<TEST BACKGROUND OPACITY>>
     .backgroundIMG::after {
