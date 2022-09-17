@@ -8,6 +8,8 @@ The about me section will contain a small introduction to my life and also some 
 
 The last section is a list of ways to contact me including email, a hyperlink to my Github and also my mobile number.
 
+The URL for the deployed portfolio is: https://dustinlee0.github.io/Dustin-s-Portfolio/
+
 ## Contact Info
 
 Email: leedustin@live.com
