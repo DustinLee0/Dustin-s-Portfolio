@@ -110,7 +110,7 @@ img {
     border-right: 6px solid black;
     text-align: right;
     padding: 30px;
-    width: 50%;
+    /* width: 50%; */
     font-size: 45px;
 }
 
@@ -130,8 +130,8 @@ img {
 .gridWrap {
     display: flex;
     justify-content: center;
-    width: 80%;
-    height: fit-content;
+    width: 100%;
+    height: 508px;
 }
 
 .grid {
@@ -147,7 +147,7 @@ img {
     color: black;
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: flex-end;
     text-decoration: none;
     background-size: cover;
     background-position: center;
@@ -157,6 +157,7 @@ img {
     background-color: grey;
     color: var(--primary);
     padding: 7px;
+    justify-content: flex-end;
 }
 
 .chal1 {
@@ -165,8 +166,57 @@ img {
     grid-row: span 2;
 }
 
-.work {
+.mes {
+    background-image: url(../images/MES.jpg);
+    grid-column: 1/2;
+    grid-row: span;
+}
 
+.korea {
+    background-image: url(../images/korea.JPG);
+    grid-column: 2/3;
+    grid-row: span;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.me li {
+    display: inline;
+    text-align: center;
+    padding-left: 30px;
+}
+
+.github {
+    text-decoration: none;
+    color: var(--primary);
 }
 
 /* id selectors */
+
+#work {
+
+}
+
+#contactMe {
+
+}
+
+/* media screens */
+@media screen and (max-width: 768px) {
+    nav{
+        flex-wrap: wrap;
+    }
+    div {
+        flex-wrap: wrap;
+    }
+    .grid {
+        display: flex;
+    }
+    .section {
+        flex-wrap: wrap;
+    }
+}
