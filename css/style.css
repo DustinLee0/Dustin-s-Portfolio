@@ -37,7 +37,7 @@ header {
 header h1 {
     margin-top: 15px;
     text-align: center;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 header ul {
@@ -93,13 +93,17 @@ img {
     width: 579px;
     justify-content: end;
     text-align: right;
-    font-size: xx-large;
+    font-size: x-large;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
 }
 
 .aboutMe {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 25px;
+    font-weight: bolder;
 }
 
 .header2 {
@@ -110,20 +114,59 @@ img {
     font-size: 45px;
 }
 
+.header2Flip {
+    border-left: 6px solid black;
+    text-align: left;
+    padding: 30px;
+    /* width: ; */
+    font-size: 45px;
+}
+
 .sectionSpacing {
     /* width: 70%; */
     padding: 23px;
 }
 
+.gridWrap {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: fit-content;
+}
+
+.grid {
+    display: grid;
+    width: 70%;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.gridCard {
+    border: solid;
+    color: black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-decoration: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.gridTag {
+    background-color: grey;
+    color: var(--primary);
+    padding: 7px;
+}
+
+.chal1 {
+    background-image: url(../images/challenge1.jpg);
+    grid-column: 1/3;
+    grid-row: span 2;
+}
+
+.work {
+
+}
+
 /* id selectors */
-#work {
-
-}
-
-#aboutMe {
-
-}
-
-#contactMe {
-
-}
